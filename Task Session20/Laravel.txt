@@ -1,0 +1,23 @@
+# Laravel Framework
+
+**What is Laravel?**
+
+Laravel is a free, open-source PHP framework used to build modern web applications. It follows the MVC (Model-View-Controller) architecture and makes web development easier, faster, and more organized.
+
+**Main Features of Laravel:**
+
+1. **Routing:** Handles application URLs and requests.
+2. **MVC Architecture:** Organizes code into Model, View, and Controller.
+3. **Eloquent ORM:** Makes database operations easier.
+4. **Blade:** Laravel's template engine for creating dynamic pages.
+5. **Authentication:** Provides tools for user login and registration.
+6. **Validation:** Validates user input and form data.
+7. **Middleware:** Filters HTTP requests before they reach the application.
+8. **Migrations:** Manage database structure using PHP code.
+
+**Advantages of Laravel:**
+- Easy to learn and use.
+- Clean and organized code.
+- Saves development time.
+- Built-in security features.
+- Supports reusable code.

@@ -1,0 +1,30 @@
+# Magic Methods in PHP
+
+Magic Methods are special methods in PHP that start with two underscores (`__`). They are called automatically when specific actions happen.
+
+**1. __get()**
+- Called automatically when accessing an inaccessible or undefined property.
+- Used to read property values.
+
+**2. __set()**
+- Called automatically when assigning a value to an inaccessible or undefined property.
+- Used to set property values.
+
+**3. __call()**
+- Called automatically when calling an inaccessible or undefined method using an object.
+
+**4. __callStatic()**
+- Called automatically when calling an inaccessible or undefined static method.
+
+**5. __clone()**
+- Called automatically when an object is cloned using the `clone` keyword.
+- Used to customize the cloning process.
+
+**6. __toString()**
+- Called automatically when an object is treated as a string.
+- Used to define what the object returns when printed using `echo`.
+
+**7. __invoke()**
+- Called automatically when an object is used like a function.
+
+**Note:** Magic Methods are automatically called by PHP when specific conditions occur.
